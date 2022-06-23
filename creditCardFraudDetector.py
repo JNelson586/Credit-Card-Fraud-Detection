@@ -106,7 +106,7 @@ model.fit(X_train, Y_train)
 
 """Accuracy Score"""
 
-# accuracy on trainng data
+# accuracy on training data
 X_train_prediction = model.predict(X_train)
 training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 
